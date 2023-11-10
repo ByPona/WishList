@@ -1,4 +1,11 @@
 # WishList
 
 Project Developed with React/Vite, Electron, MaterialsUI, Node.js, Express
-![Cadena](https://github.com/ByPona/mcs-blog/blob/main/foto-blog.PNG)
+Inicio
+![Cadena](https://github.com/ByPona/WishList/blob/main/Inicio.PNG)
+
+Formulario de registro
+![Cadena](https://github.com/ByPona/WishList/blob/main/Formulario.PNG)
+
+Catalogo
+![Cadena](https://github.com/ByPona/WishList/blob/main/Muestra.PNG)
