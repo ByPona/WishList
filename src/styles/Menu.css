@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url('../assets/background2.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#inicio {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#inicio::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition: .3s;
+}
+
+#inicio:hover::before{
+    width: 100%;
+}
+
+#pc {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#pc::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition: .3s;
+}
+
+#pc:hover::before{
+    width: 100%;
+}
+
+#xbox {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#xbox::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: green;
+    transition: .3s;
+}
+
+#xbox:hover::before{
+    width: 100%;
+}
+
+#play {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#play::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: blue;
+    transition: .3s;
+}
+
+#play:hover::before{
+    width: 100%;
+}
+
+#nintendo {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#nintendo::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: red;
+    transition: .3s;
+}
+
+#nintendo:hover::before{
+    width: 100%;
+}
